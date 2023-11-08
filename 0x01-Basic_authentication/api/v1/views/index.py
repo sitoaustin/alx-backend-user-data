@@ -41,4 +41,4 @@ def unauthorized() -> str:
     Return:
       "{error: "forbidden}"
     """
-    abort(401, description="Forbidden")
+    abort(403, description="Forbidden")
