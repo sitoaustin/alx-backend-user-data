@@ -18,12 +18,12 @@ class Auth:
        Checks if a given path requires authentication.
        Args:
        path (str): The URL path to check.
-       excluded_paths (List[str]): A list of paths that do not require authentication.
-       
+       excluded_paths (List[str]): A list of paths that
+       do not require authentication.
        Returns:
-       bool: True if the path is not in the excluded_paths list, otherwise False.
-   
-        """
+       bool: True if the path is not in the
+       excluded_paths list, otherwise False.
+       """
         if path is None:
             return True
         elif excluded_paths is None or excluded_paths == []:
